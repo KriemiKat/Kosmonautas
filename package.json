@@ -9,5 +9,17 @@
   "keywords": [],
   "author": "Katažina",
   "license": "ISC",
-  "description": ""
+  "description": "```php\r https://nodejs.org\r ```\r ### labas",
+  "dependencies": {
+    "dead-server": "^1.0.9"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KriemiKat/Kosmonautas.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KriemiKat/Kosmonautas/issues"
+  },
+  "homepage": "https://github.com/KriemiKat/Kosmonautas#readme"
 }
