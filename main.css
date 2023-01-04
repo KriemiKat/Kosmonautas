@@ -23,12 +23,12 @@ body {
     object-position: left;
 }
 
-.main meniu {
+.main-meniu {
     float: right;
     margin-top: 10px;
 }
 
-.main meniu > .link {
+.main-meniu > .link {
     display: inline-block;
     margin-left: 2em;
     color: #000;
@@ -50,14 +50,29 @@ body {
     float: left;
 }
 
+.foto {
+    display: block;
+    width: 100%;
+}
+
 .main-title {
     font-size: 50px;
-    color: #222222;
-    font-weight: normal;
+    color: #662c8c;
+    font-weight: bold;
 }
 .main-title > span {
     display: block;
     font-weight: bold;
+}
+
+.main-title::after {
+    content: '';
+    width: 100px;
+    height: 6px;
+    display: block;
+    font-size: 50px;
+    background-color: #662c8c;;
+  
 }
 
 .description {
@@ -120,7 +135,8 @@ body {
     margin-right: 0;
 }
 .socials > .icon:hover {
-    color: #662c8c;
+      color: #9999;
+
 }
 
 .copyright {
