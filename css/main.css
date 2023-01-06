@@ -59,20 +59,20 @@ body {
     font-size: 50px;
     color: #662c8c;
     font-weight: bold;
+    position: relative;
 }
 .main-title > span {
     display: block;
     font-weight: bold;
 }
 
-.main-title::after {
+.main-title::after{
     content: '';
     width: 100px;
     height: 6px;
     display: block;
     font-size: 50px;
     background-color: #662c8c;;
-  
 }
 
 .description {
@@ -109,13 +109,16 @@ body {
     width: 55%;
     float: right;
 }
+
 .right-column > img {
     width: 100%;
 }
+
 .right-column > .img-grey,
 .right-column:hover > .img-color {
     display: block;
 }
+
 .right-column > .img-color,
 .right-column:hover > .img-grey {
     display: none;
@@ -124,6 +127,7 @@ body {
 .socials {
     float: left;
 }
+
 .socials > .icon {
     margin-right: 1em;
     font-size: 20px;
@@ -131,12 +135,13 @@ body {
     text-decoration: none;
     color: #999;
 }
+
 .socials > .icon:last-child {
     margin-right: 0;
 }
-.socials > .icon:hover {
-      color: #9999;
 
+.socials > .icon:hover {
+      color: rgba(51, 37, 37, 0.6);
 }
 
 .copyright {
