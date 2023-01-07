@@ -114,8 +114,8 @@ body {
     width: 100%;
 }
 
-.right-column > .img-grey,
-.right-column:hover > .img-color {
+.right-column >.img-grey,
+.right-column:hover >.img-color {
     display: block;
 }
 
